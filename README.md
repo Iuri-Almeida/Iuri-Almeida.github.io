@@ -14,7 +14,7 @@
 
 <div align = "center">
 
-<img alt = "Cellphone" src = "https://user-images.githubusercontent.com/60857927/113206232-94190b00-9245-11eb-8e39-52def37283d4.jpg" />
+<img height = "500" alt = "Cellphone" src = "https://user-images.githubusercontent.com/60857927/113206232-94190b00-9245-11eb-8e39-52def37283d4.jpg" />
 
 </div>
 
@@ -23,7 +23,6 @@
 <div>
 
 ## 📌 &nbsp; Descrição
----
 
 <p>
 
@@ -42,7 +41,6 @@ Espero que gostem 💙
 <div>
 
 ## 🛠 &nbsp; Linguagens
----
 
 <span>Todas as linguagens e ferramentas que foram usadas na criação da página:</span>
 
@@ -69,7 +67,6 @@ Espero que gostem 💙
 <div>
 
 ## ⚠️ &nbsp; Requisitos
----
 
 <span>Antes de clonar esse respositório, é preciso que vc tenha o [Git][git] e o [NodeJS][nodejs] pré-instalados na sua máquina. Segue os comandos para baixar 😊</span>
 
@@ -93,7 +90,6 @@ sudo apt-get install -y nodejs # Ubuntu
 <div>
 
 ## 👨🏻‍💻 &nbsp; Executando
----
 
 <span>Depois de ter baixado todos os requisitos e ter corrido tudo certo, está na hora dos passos para vc poder ter esse repositório na sua máquina e até contribuir 💙</span>
 
@@ -120,7 +116,6 @@ $ npm start ou yarn start
 <div>
 
 ## 💡 &nbsp; Roadmap
----
 
 <div class = "roadmapList">
 
@@ -151,7 +146,6 @@ $ npm start ou yarn start
 <div>
 
 ## 👋🏻 &nbsp; Prazer
----
 
 <span>Minhas redes socias caso queira entrar em contato 👀</span>
 
