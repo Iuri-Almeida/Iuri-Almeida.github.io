@@ -77,8 +77,7 @@ $ sudo apt install git-all # Ubuntu
 
 # NodeJS
 $ brew install node # macOS
-$ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-sudo apt-get install -y nodejs # Ubuntu
+$ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - sudo apt-get install -y nodejs # Ubuntu
 ```
 
 **Obs.:** Para o MS Windows vc pode baixar o executável do [Git][git4windows] e do [NodeJS][nodejs].
@@ -95,10 +94,10 @@ sudo apt-get install -y nodejs # Ubuntu
 
 ```bash
 # clone o repositório
-$ git clone https://github.com/anuraghazra/anuraghazra.github.io.git
+$ git clone https://github.com/Iuri-Almeida/Iuri-Almeida.github.io.git
 
 # Entre no diretório
-$ cd anuraghazra.github.io
+$ cd Iuri-Almeida.github.io
 
 # Instale todas as dependências
 $ npm install ou yarn add
