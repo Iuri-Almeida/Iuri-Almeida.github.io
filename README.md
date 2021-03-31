@@ -1,65 +1,6 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-    :root {
-        font-family: "Roboto", sans-serif;
-        font-size: 10px;
-
-        --dark-blue: #0e0e52;
-        --blue: #192bc2;
-        --light-blue: #449dd1;
-        --white: #fff;
-        --black: #262525;
-    }
-
-    .helloHand, .helloHand2 {
-        width: 3.3rem;
-    }
-
-    .helloHand2 {
-        transform: rotateY(180deg);
-    }
-
-    .portifolioLink {
-        color: var(--light-blue);
-
-        font-weight: 500;
-    }
-
-    .portifolioLink:hover {
-        color: var(--blue);
-
-        text-decoration: none;
-    }
-
-    .titles {
-        color: var(--light-blue);
-    }
-
-    .roadmapList {
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 1rem;
-    }
-
-    ul {
-        list-style-type: none;
-    }
-
-    a {
-        color: var(--light-blue);
-    }
-
-    a:hover {
-        color: var(--blue);
-
-        text-decoration: none;
-    }
-</style>
-
 <div align = "center" id = "top">
 
-# <img class = "helloHand" src = "https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" />&nbsp; <a href="https://anuraghazra.github.io" target="_blank" class = "portifolioLink">Iuri Almeida</a> &nbsp;<img class = "helloHand2" src = "https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" />
+# <a href="https://anuraghazra.github.io" target="_blank" class = "portifolioLink">Iuri Almeida</a>
 
 </div>
 
@@ -81,7 +22,7 @@
 
 <div>
 
-## 📌 &nbsp; <span class = "titles">Descrição</span>
+## 📌 &nbsp; Descrição
 ---
 
 <p>
@@ -100,7 +41,7 @@ Espero que gostem 💙
 
 <div>
 
-## 🛠 &nbsp; <span class = "titles">Linguagens e Ferramentas</span>
+## 🛠 &nbsp; Linguagens
 ---
 
 <span>Todas as linguagens e ferramentas que foram usadas na criação da página:</span>
@@ -127,7 +68,7 @@ Espero que gostem 💙
 
 <div>
 
-## ⚠️ &nbsp; <span class = "titles">Requisitos</span>
+## ⚠️ &nbsp; Requisitos
 ---
 
 <span>Antes de clonar esse respositório, é preciso que vc tenha o [Git][git] e o [NodeJS][nodejs] pré-instalados na sua máquina. Segue os comandos para baixar 😊</span>
@@ -143,7 +84,7 @@ $ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt-get install -y nodejs # Ubuntu
 ```
 
-**Obs.:** Para o MS Windows vc pode baixar o executável do [Git](https://gitforwindows.org/) e do [NodeJS][nodejs].
+**Obs.:** Para o MS Windows vc pode baixar o executável do [Git][git4windows] e do [NodeJS][nodejs].
 
 </div>
 
@@ -151,7 +92,7 @@ sudo apt-get install -y nodejs # Ubuntu
 
 <div>
 
-## 👨🏻‍💻 &nbsp; <span class = "titles">Executando</span>
+## 👨🏻‍💻 &nbsp; Executando
 ---
 
 <span>Depois de ter baixado todos os requisitos e ter corrido tudo certo, está na hora dos passos para vc poder ter esse repositório na sua máquina e até contribuir 💙</span>
@@ -178,7 +119,7 @@ $ npm start ou yarn start
 
 <div>
 
-## 💡 &nbsp; <span class = "titles">Roadmap</span>
+## 💡 &nbsp; Roadmap
 ---
 
 <div class = "roadmapList">
@@ -209,7 +150,7 @@ $ npm start ou yarn start
 
 <div>
 
-## 👋🏻 &nbsp; <span class = "titles">Prazer</span>
+## 👋🏻 &nbsp; Prazer
 ---
 
 <span>Minhas redes socias caso queira entrar em contato 👀</span>
@@ -234,6 +175,7 @@ $ npm start ou yarn start
 
 <!-- Links -->
 [git]: https://git-scm.com/
+[git4windows]: https://gitforwindows.org/
 [github]: https://github.com/
 [vscode]: https://code.visualstudio.com/
 [css]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
