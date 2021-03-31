@@ -1,0 +1,36 @@
+.container {
+  height: 6.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  padding-right: 2rem;
+
+  transition: background 0.4s;
+}
+
+.span {
+  font-size: 1.4rem;
+
+  text-align: center;
+}
+
+.switch {
+  margin: 0 1.6rem;
+}
+
+/* Responsividade */
+@media (max-width: 320px) {
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+}
