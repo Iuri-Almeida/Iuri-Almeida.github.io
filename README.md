@@ -100,10 +100,10 @@ $ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - sudo ap
 
 ```bash
 # clone o repositório
-$ git clone https://github.com/Iuri-Almeida/portifolio.git
+$ git clone https://github.com/Iuri-Almeida/Iuri-Almeida.github.io.git
 
 # Entre no diretório
-$ cd portifolio
+$ cd Iuri-Almeida.github.io
 
 # Instale todas as dependências
 $ npm install ou yarn add
