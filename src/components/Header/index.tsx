@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import Switch from 'react-switch'
 import { ThemeContext } from 'styled-components'
+import logo from '../../images/logo.png'
 
 import { Container } from './style'
 import styles from '../../styles/components/Header.module.css'
@@ -16,22 +17,25 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
 
     return (
         <Container className={styles.container}>
-            <span className={styles.span}>Light</span>
-            <Switch
-                className={styles.switch}
-                checked={title === 'dark'}
-                onChange={toogleTheme}
-                checkedIcon={false}
-                uncheckedIcon={false}
-                height={32}
-                width={66}
-                handleDiameter={26}
-                onColor={colors.primary}
-                offColor={colors.primary}
-                onHandleColor='#449DD1'
-                offHandleColor='#449DD1'
-            />
-            <span className={styles.span}>Dark</span>
+            <img className={styles.logo} src={logo} alt="Logo" />
+            <div>
+                <span className={styles.span}>Light</span>
+                <Switch
+                    className={styles.switch}
+                    checked={title === 'dark'}
+                    onChange={toogleTheme}
+                    checkedIcon={false}
+                    uncheckedIcon={false}
+                    height={32}
+                    width={66}
+                    handleDiameter={26}
+                    onColor={colors.primary}
+                    offColor={colors.primary}
+                    onHandleColor='#449DD1'
+                    offHandleColor='#449DD1'
+                />
+                <span className={styles.span}>Dark</span>
+            </div>
         </Container>
     )
 }

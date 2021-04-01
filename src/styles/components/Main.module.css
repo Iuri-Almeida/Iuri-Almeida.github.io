@@ -111,6 +111,69 @@
 
   transform: scale(1.06);
 }
+
+.alertContainer {
+  width: 40rem;
+  height: 26rem;
+
+  justify-content: space-between;
+
+  padding: 4rem 0;
+}
+
+.alertTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.2rem;
+
+  color: var(--black);
+}
+
+.alertConfirmButton,
+.alertCancelButton {
+  padding: initial;
+
+  width: 13rem;
+  height: 5.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 1rem !important;
+
+  background: var(--blue) !important;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  transition: background 0.4s;
+  transition: transform 0.2s;
+}
+
+.alertConfirmButton:hover,
+.alertCancelButton:hover {
+  background: rgba(68, 157, 209, 0.95) !important;
+
+  transform: scale(1.06);
+}
+
+a[download="iuri_pt-br.pdf"],
+a[download="iuri_en-us.pdf"] {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+.alertConfirmButton {
+  margin-right: 2.4rem;
+}
+
+.alertCloseButton {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+}
+
+.alertCloseButton:hover {
+  color: var(--black);
+}
 /* ---- wget resume.pdf ---- */
 
 /* ---- open https://social_medias.com ---- */
@@ -239,6 +302,38 @@
 
   .contactContainer {
     margin-top: 2rem;
+  }
+
+  .alertContainer {
+    width: 30rem;
+    height: 19rem;
+
+    padding: 2rem 0;
+  }
+
+  .alertTitle {
+    font-size: 2.4rem;
+  }
+
+  .alertConfirmButton,
+  .alertCancelButton {
+    width: 11rem;
+    height: 4.6rem;
+
+    border-radius: 0.8rem !important;
+  }
+
+  a[download="iuri_pt-br.pdf"],
+  a[download="iuri_en-us.pdf"] {
+    font-size: 1.4rem;
+  }
+
+  .alertConfirmButton {
+    margin-right: 2rem;
+  }
+
+  .alertCloseButton {
+    font-size: 3rem;
   }
 
   .resumeContainer,

@@ -40,7 +40,7 @@ Espero que gostem 💙
 
 <div>
 
-## 🛠 &nbsp; Linguagens
+## 🛠 &nbsp; Linguagens e Ferramentas
 
 <span>Todas as linguagens e ferramentas que foram usadas na criação da página:</span>
 
@@ -123,6 +123,7 @@ $ npm start ou yarn start
 - [ ✅ ] &nbsp; Disponibilizar meu currículo para download
 - [ ✅ ] &nbsp; Adicionar responsividade para celular
 - [ ✅ ] &nbsp; Adicionar modo claro e escuro
+- [ ✅ ] &nbsp; Criar popup para download de currículos
 - [ ❌ ] &nbsp; Adicionar seção de hobbies
 - [ ❌ ] &nbsp; Adicionar seção de ferramentas e linguagens
 - [ ❌ ] &nbsp; Adicionar seção de projetos

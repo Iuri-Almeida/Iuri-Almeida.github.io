@@ -6,10 +6,13 @@ import facebook from '../../images/facebook.png'
 import gmail from '../../images/gmail.png'
 import iuri from '../../images/iuri.jpg'
 
+import Swal from 'sweetalert2'
+
 import styles from '../../styles/components/Main.module.css'
 
 const Main: React.FC = () => {
 
+    // função responsável por criar o efeito de escrita
     function writingEffect() {
 
         const commands = document.querySelectorAll(`span.${styles.commands}`)
@@ -28,6 +31,54 @@ const Main: React.FC = () => {
                 )
             )
         }
+    }
+
+    // função responsável por disponibilizar os currículos no alert
+    function downloadAlert() {
+
+        // lançando o alert
+        Swal.fire({
+            title: 'Select a resume for download',
+            showCancelButton: true,
+            showCloseButton: true,
+            confirmButtonText: 'Portuguese',
+            cancelButtonText: 'English'
+        })
+
+        // lógica usada para por o button dentro do link e não vice-versa
+        // armazenando os botões e a TAG pai dos dois
+        const alertConfirmButton = Swal.getConfirmButton(),
+            alertCancelButton = Swal.getCancelButton(),
+            father = Swal.getActions()
+
+        // removendo eles do HTML
+        alertConfirmButton?.remove()
+        alertCancelButton?.remove()
+
+        // criando um link para cada
+        const portugueseLink = document.createElement('a'),
+            englishLink = document.createElement('a')
+
+        // adicionando os atributos dos links
+        portugueseLink.setAttribute('href', '/iuri_pt-br.pdf')
+        portugueseLink.setAttribute('download', 'iuri_pt-br.pdf')
+        englishLink.setAttribute('href', '/iuri_en-us.pdf')
+        englishLink.setAttribute('download', 'iuri_en-us.pdf')
+
+        // adicionando os botões dentro do link
+        portugueseLink.appendChild(alertConfirmButton ? alertConfirmButton : document.createElement('button'))
+        englishLink.appendChild(alertCancelButton ? alertCancelButton : document.createElement('button'))
+
+        // adicionando os links na TAG pai
+        father?.appendChild(portugueseLink)
+        father?.appendChild(englishLink)
+
+        // estilizando o alert
+        Swal.getHeader()?.parentElement?.classList.add(styles.alertContainer)
+        Swal.getTitle()?.classList.add(styles.alertTitle)
+        Swal.getConfirmButton()?.classList.add(styles.alertConfirmButton)
+        Swal.getCancelButton()?.classList.add(styles.alertCancelButton)
+        Swal.getCloseButton()?.classList.add(styles.alertCloseButton)
     }
 
     return (
@@ -66,13 +117,9 @@ const Main: React.FC = () => {
 
                         <div>
 
-                            <a href="/my_resume.pdf" download="iuri_resume">
-
-                                <button className={styles.downloadResume}>
-                                    Download Resume
-                                </button>
-
-                            </a>
+                            <button className={styles.downloadResume} onClick={downloadAlert}>
+                                Download Resume
+                            </button>
 
                         </div>
 
