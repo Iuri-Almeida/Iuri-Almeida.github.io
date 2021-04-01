@@ -1,5 +1,11 @@
 <div align = "center" id = "top">
 
+<img width = "500" alt = "Logo" src = "./src/images/logo.png" />
+
+</div>
+
+<div align = "center">
+
 # <a href="https://iuri-almeida.github.io/" target="_blank" class = "portifolioLink">Iuri Almeida</a>
 
 </div>
