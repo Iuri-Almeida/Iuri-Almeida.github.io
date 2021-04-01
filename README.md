@@ -1,6 +1,6 @@
 <div align = "center" id = "top">
 
-<img width = "300" alt = "Logo" src = "./src/images/logo.png" />
+<img width = "130" alt = "Logo" src = "./src/images/logo.png" />
 
 </div>
 
