@@ -1,6 +1,6 @@
 <div align = "center" id = "top">
 
-# <a href="https://portifolio-48go4r3c1-iuri-almeida.vercel.app/" target="_blank" class = "portifolioLink">Iuri Almeida</a>
+# <a href="https://iuri-almeida.github.io/" target="_blank" class = "portifolioLink">Iuri Almeida</a>
 
 </div>
 
@@ -168,6 +168,6 @@ $ npm start ou yarn start
 [js]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [reactjs]: https://pt-br.reactjs.org/
 [nodejs]: https://nodejs.org/en/
-[portifolio]: https://portifolio-48go4r3c1-iuri-almeida.vercel.app/
+[portifolio]: https://iuri-almeida.github.io/
 [linkedin]: https://www.linkedin.com/in/iurilopesalmeida/
 [instagram]: https://www.instagram.com/_iurialmeida/
