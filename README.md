@@ -94,10 +94,10 @@ $ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - sudo ap
 
 ```bash
 # clone o repositório
-$ git clone https://github.com/Iuri-Almeida/Iuri-Almeida.github.io.git
+$ git clone https://github.com/Iuri-Almeida/portifolio.git
 
 # Entre no diretório
-$ cd Iuri-Almeida.github.io
+$ cd portifolio
 
 # Instale todas as dependências
 $ npm install ou yarn add
@@ -118,23 +118,14 @@ $ npm start ou yarn start
 
 <div class = "roadmapList">
 
-<ul>
-
-<li>✅ &nbsp; Criar a página</li>
-<li>✅ &nbsp; Adicionar seção de apresentação</li>
-<li>✅ &nbsp; Disponibilizar meu currículo para download</li>
-<li>✅ &nbsp; Adicionar responsividade para celular</li>
-
-</ul>
-
-<ul>
-
-<li>✅ &nbsp; Adicionar modo claro e escuro</li>
-<li>❌ &nbsp; Adicionar seção de hobbies</li>
-<li>❌ &nbsp; Adicionar seção de ferramentas e linguagens</li>
-<li>❌ &nbsp; Adicionar seção de projetos</li>
-
-</ul>
+- [ ✅ ] &nbsp; Criar a página
+- [ ✅ ] &nbsp; Adicionar seção de apresentação
+- [ ✅ ] &nbsp; Disponibilizar meu currículo para download
+- [ ✅ ] &nbsp; Adicionar responsividade para celular
+- [ ✅ ] &nbsp; Adicionar modo claro e escuro
+- [ ❌ ] &nbsp; Adicionar seção de hobbies
+- [ ❌ ] &nbsp; Adicionar seção de ferramentas e linguagens
+- [ ❌ ] &nbsp; Adicionar seção de projetos
 
 </div>
 
