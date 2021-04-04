@@ -6,7 +6,7 @@ import logo from '../../../images/logo.png'
 import { Hobbies } from './style'
 
 import styles from '../../../styles/components/About.module.css'
-import commands from '../../../styles/components/Main.module.css'
+import animation from '../../../styles/components/Animation.module.css'
 
 const About: React.FC = () => {
 
@@ -14,11 +14,11 @@ const About: React.FC = () => {
 
         <div id="about" className={styles.aboutContainer}>
 
-            <span className={`${commands.commands} ${styles.aboutCommand}`}>
+            <span className={`${animation.commands} ${styles.aboutCommand}`}>
                 $ cd about/
             </span>
 
-            <p className={styles.aboutText}>
+            <p className={`${styles.aboutText} ${animation.aboutTextAppear}`}>
                 Hi there, I'm <span className={styles.regularText}>Iuri Almeida</span>, a self-taught and full stack developer from Brazil, currently working at <a className={styles.regularText} href="https://nossaenergia.petrobras.com.br/pt/energia/conexoes-para-a-inovacao-modulo-ignicao-busca-as-ideias-de-jovens-estudantes/#menu" target="_blank" rel="noreferrer">Módulo Ignição</a> as a software developer. I’m always willing to know and learn new things, in addition to wanting to help spread knowledge around the world.
 
                 <br />
@@ -27,11 +27,11 @@ const About: React.FC = () => {
                 <span className={styles.regularText}>Curiosity:</span> I'm a jiu jitsu black belt.
             </p>
 
-            <span className={`${commands.commands} ${styles.lsCommand}`}>
+            <span className={`${animation.commands} ${styles.lsCommand}`}>
                 $ ls hobbies/
             </span>
 
-            <div className={styles.hobbiesContainer}>
+            <div className={`${styles.hobbiesContainer} ${animation.hobbiesAppear}`}>
 
                 <Hobbies className={styles.hobbies}>
 

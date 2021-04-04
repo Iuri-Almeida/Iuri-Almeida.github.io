@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styles from '../../styles/components/Main.module.css'
+import animation from '../../styles/components/Animation.module.css'
 
 import Home from './Home'
 import About from './About'
@@ -10,7 +11,7 @@ const Main: React.FC = () => {
     // função responsável por criar o efeito de escrita
     function WritingEffect() {
 
-        const commands = document.querySelectorAll(`span.${styles.commands}`)
+        const commands = document.querySelectorAll(`span.${animation.commands}`)
 
         for (let i = 0; i < commands.length; i++) {
 

@@ -63,8 +63,7 @@ a.regularText:hover {
 
   flex-direction: column;
 
-  transition: transform 0.4s;
-  transition: background 0.4s;
+  transition: transform 0.4s, background 0.4s;
 }
 
 .hobbies:hover {

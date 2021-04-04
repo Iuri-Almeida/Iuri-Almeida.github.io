@@ -2,34 +2,6 @@
   padding: 0 15rem;
 }
 
-.commands {
-  font-weight: 500;
-  font-size: 1.8rem;
-
-  display: block;
-
-  margin-bottom: 3.6rem;
-}
-
-.commands::after {
-  content: " |";
-
-  opacity: 1;
-
-  animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-}
-
 /* Responsividade */
 @media (max-width: 320px) {
 }

@@ -9,7 +9,7 @@ import iuri from '../../../images/iuri.jpg'
 import Swal from 'sweetalert2'
 
 import styles from '../../../styles/components/Home.module.css'
-import commands from '../../../styles/components/Main.module.css'
+import animation from '../../../styles/components/Animation.module.css'
 
 const Home: React.FC = () => {
 
@@ -69,19 +69,19 @@ const Home: React.FC = () => {
 
                 <div className={styles.profileContainer}>
 
-                    <span className={`${commands.commands} ${styles.catCommand}`}>
+                    <span className={`${animation.commands} ${styles.catCommand}`}>
                         $ cat profile.txt
                     </span>
 
-                    <span className={styles.hello}>
+                    <span className={`${styles.hello} ${animation.helloAppearAppear}`}>
                         Hello world, my name is
                     </span>
 
-                    <span className={styles.name}>
+                    <span className={`${styles.name} ${animation.nameAppear}`}>
                         IURI ALMEIDA
                     </span>
 
-                    <span className={styles.about}>
+                    <span className={`${styles.about} ${animation.aboutAppear}`}>
                         SELF-TAUGHT AND FULL STACK DEVELOPER
                     </span>
 
@@ -91,13 +91,13 @@ const Home: React.FC = () => {
 
                     <div className={styles.resumeContainer}>
 
-                        <span className={commands.commands}>
+                        <span className={animation.commands}>
                             $ wget resume.pdf
                         </span>
 
                         <div>
 
-                            <button className={styles.downloadResume} onClick={downloadAlert}>
+                            <button className={`${styles.downloadResume} ${animation.downloadResumeAppear}`} onClick={downloadAlert}>
                                 Download Resume
                             </button>
 
@@ -107,11 +107,11 @@ const Home: React.FC = () => {
 
                     <div className={styles.socialMediasContainer}>
 
-                        <span className={commands.commands}>
+                        <span className={animation.commands}>
                             $ open https://social_medias.com
                         </span>
 
-                        <div>
+                        <div className={animation.socialMediasAppear}>
 
                             <a href="https://github.com/Iuri-Almeida" rel="noreferrer" target="_blank">
                                 <img className={styles.socialMedias} src={github} alt="Meu GitHub" />
@@ -145,11 +145,11 @@ const Home: React.FC = () => {
 
                 <div>
 
-                    <span className={commands.commands}>
+                    <span className={animation.commands}>
                         $ display iuri.png
                     </span>
 
-                    <div>
+                    <div className={animation.imageAppear}>
                         <img className={styles.image} src={iuri} alt="Iuri Almeida" />
                     </div>
 
