@@ -16,10 +16,22 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
     const { title, colors } = useContext(ThemeContext)
 
     return (
+
         <Container className={styles.container}>
+
             <img className={styles.logo} src={logo} alt="Logo" />
+
             <div>
+
+                <div className={styles.menu}>
+
+                    <a href="#home">Home</a>
+                    <a href="#about">About me</a>
+
+                </div>
+
                 <span className={styles.span}>Light</span>
+
                 <Switch
                     className={styles.switch}
                     checked={title === 'dark'}
@@ -34,8 +46,11 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
                     onHandleColor='#449DD1'
                     offHandleColor='#449DD1'
                 />
+
                 <span className={styles.span}>Dark</span>
+
             </div>
+
         </Container>
     )
 }
