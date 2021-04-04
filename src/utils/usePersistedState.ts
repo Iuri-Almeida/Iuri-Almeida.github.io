@@ -9,10 +9,10 @@ type Response<T> = [
 
 // função responsável por manter o tema escolhido pelo usuário
 function usePersistedState<T>(key: string, initialState: T): Response<T> {
-    
+
     // definindo qual o estado
     const [state, setState] = useState(() => {
-        
+
         // tentando buscar o valor em local storage
         const storageValue = localStorage.getItem(key)
 
