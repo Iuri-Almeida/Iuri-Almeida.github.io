@@ -24,11 +24,15 @@
 
   text-align: center;
 
-  max-width: 110rem;
+  max-width: 85rem;
 }
 
 .regularText {
   font-weight: normal;
+}
+
+a.regularText:hover {
+  text-decoration: underline;
 }
 
 .hobbiesContainer {

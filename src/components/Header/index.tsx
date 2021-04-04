@@ -19,7 +19,9 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
 
         <Container className={styles.container}>
 
-            <img className={styles.logo} src={logo} alt="Logo" />
+            <a href="https://iuri-almeida.github.io/">
+                <img className={styles.logo} src={logo} alt="Logo" />
+            </a>
 
             <div>
 
