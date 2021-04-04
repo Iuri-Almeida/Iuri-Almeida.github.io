@@ -8,6 +8,7 @@ import iuri from '../../../images/iuri.jpg'
 
 import Swal from 'sweetalert2'
 
+import commands from '../../../styles/components/Main.module.css'
 import styles from '../../../styles/components/Home.module.css'
 import animation from '../../../styles/components/Animation.module.css'
 
@@ -69,7 +70,7 @@ const Home: React.FC = () => {
 
                 <div className={styles.profileContainer}>
 
-                    <span className={`${animation.commands} ${styles.catCommand}`}>
+                    <span className={`${commands.commands} ${animation.commands} ${styles.catCommand}`}>
                         $ cat profile.txt
                     </span>
 
@@ -91,7 +92,7 @@ const Home: React.FC = () => {
 
                     <div className={styles.resumeContainer}>
 
-                        <span className={animation.commands}>
+                        <span className={`${commands.commands} ${animation.commands}`}>
                             $ wget resume.pdf
                         </span>
 
@@ -107,7 +108,7 @@ const Home: React.FC = () => {
 
                     <div className={styles.socialMediasContainer}>
 
-                        <span className={animation.commands}>
+                        <span className={`${commands.commands} ${animation.commands}`}>
                             $ open https://social_medias.com
                         </span>
 
@@ -145,7 +146,7 @@ const Home: React.FC = () => {
 
                 <div>
 
-                    <span className={animation.commands}>
+                    <span className={`${commands.commands} ${animation.commands}`}>
                         $ display iuri.png
                     </span>
 

@@ -1,12 +1,12 @@
 /* Writing Effect */
-.commands {
+/* .commands {
   font-weight: 500;
   font-size: 1.8rem;
 
   display: block;
 
   margin-bottom: 3.6rem;
-}
+} */
 
 .commands::after {
   content: " |";

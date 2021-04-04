@@ -5,6 +5,7 @@ import logo from '../../../images/logo.png'
 
 import { Hobbies } from './style'
 
+import commands from '../../../styles/components/Main.module.css'
 import styles from '../../../styles/components/About.module.css'
 import animation from '../../../styles/components/Animation.module.css'
 
@@ -14,7 +15,7 @@ const About: React.FC = () => {
 
         <div id="about" className={styles.aboutContainer}>
 
-            <span className={`${animation.commands} ${styles.aboutCommand}`}>
+            <span className={`${commands.commands} ${animation.commands} ${styles.aboutCommand}`}>
                 $ cd about/
             </span>
 
@@ -27,7 +28,7 @@ const About: React.FC = () => {
                 <span className={styles.regularText}>Curiosity:</span> I'm a jiu jitsu black belt.
             </p>
 
-            <span className={`${animation.commands} ${styles.lsCommand}`}>
+            <span className={`${commands.commands} ${animation.commands} ${styles.lsCommand}`}>
                 $ ls hobbies/
             </span>
 
