@@ -19,7 +19,7 @@ const About: React.FC = () => {
             </span>
 
             <p className={styles.aboutText}>
-                Hi there, I'm <span className={styles.regularText}>Iuri Almeida</span>, a self-taught and full stack developer from Brazil, currently working at <a className={styles.regularText} href="https://nossaenergia.petrobras.com.br/pt/energia/conexoes-para-a-inovacao-modulo-ignicao-busca-as-ideias-de-jovens-estudantes/#menu" target="_blank" rel="noreferrer">Módulo Ignição</a> as a Web Dev. I’m always willing to know and learn new things, in addition to wanting to help spread knowledge around the world.
+                Hi there, I'm <span className={styles.regularText}>Iuri Almeida</span>, a self-taught and full stack developer from Brazil, currently working at <a className={styles.regularText} href="https://nossaenergia.petrobras.com.br/pt/energia/conexoes-para-a-inovacao-modulo-ignicao-busca-as-ideias-de-jovens-estudantes/#menu" target="_blank" rel="noreferrer">Módulo Ignição</a> as a software developer. I’m always willing to know and learn new things, in addition to wanting to help spread knowledge around the world.
 
                 <br />
                 <br />
