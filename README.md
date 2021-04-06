@@ -131,8 +131,8 @@ $ npm start ou yarn start
 - [ ✅ ] &nbsp; Adicionar modo claro e escuro
 - [ ✅ ] &nbsp; Criar popup para download de currículos
 - [ ✅ ] &nbsp; Adicionar seção de hobbies
+- [ ✅ ] &nbsp; Adicionar seção de ferramentas e linguagens
 - [ ❌ ] &nbsp; Criar o menu hambúrguer
-- [ ❌ ] &nbsp; Adicionar seção de ferramentas e linguagens
 - [ ❌ ] &nbsp; Adicionar seção de projetos
 
 </div>
