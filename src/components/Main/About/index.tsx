@@ -1,7 +1,8 @@
 import React from 'react'
 import python from '../../../images/python.png'
 import challenges from '../../../images/challenges.png'
-import logo from '../../../images/logo.png'
+import code from '../../../images/code.png'
+import jiujitsu from '../../../images/jiujitsu.png'
 
 import { Hobbies } from './style'
 
@@ -16,7 +17,7 @@ const About: React.FC = () => {
         <div id="about" className={styles.aboutContainer}>
 
             <span className={`${commands.commands} ${animation.commands} ${styles.aboutCommand}`}>
-                $ cd about/
+                $ whoami
             </span>
 
             <p className={`${styles.aboutText} ${animation.aboutTextAppear}`}>
@@ -37,7 +38,7 @@ const About: React.FC = () => {
                 <Hobbies className={styles.hobbies}>
 
                     <div>
-                        <img src={logo} alt="Programming" />
+                        <img src={code} alt="Programming" />
                     </div>
 
                     <h1>Programming</h1>
@@ -72,6 +73,20 @@ const About: React.FC = () => {
 
                     <span>
                         I am driven by challenges and I’m always looking for more.
+                    </span>
+
+                </Hobbies>
+
+                <Hobbies className={styles.hobbies}>
+
+                    <div>
+                        <img src={jiujitsu} alt="Jiu Jitsu" />
+                    </div>
+
+                    <h1>Jiu Jitsu</h1>
+
+                    <span>
+                        When I train Jiu Jitsu I relax and forget about my obligations.
                     </span>
 
                 </Hobbies>

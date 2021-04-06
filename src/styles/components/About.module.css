@@ -25,6 +25,8 @@
   text-align: center;
 
   max-width: 85rem;
+
+  margin-bottom: 3rem;
 }
 
 .regularText {
@@ -37,8 +39,6 @@ a.regularText:hover {
 
 .hobbiesContainer {
   width: 100%;
-
-  padding: 0 15rem;
 
   display: flex;
   align-items: center;
@@ -112,6 +112,8 @@ a.regularText:hover {
 @media (max-width: 768px) {
   .aboutContainer {
     align-items: flex-start;
+
+    padding-bottom: 0;
   }
 
   .aboutCommand {
@@ -120,6 +122,8 @@ a.regularText:hover {
 
   .aboutText {
     font-size: 1.6rem;
+
+    margin-bottom: 0;
   }
 
   .hobbiesContainer {
@@ -140,6 +144,10 @@ a.regularText:hover {
 
   .hobbiesContainer div:first-child {
     margin-right: 1rem;
+  }
+
+  .hobbiesContainer div:last-child {
+    margin-left: 1rem;
   }
 }
 

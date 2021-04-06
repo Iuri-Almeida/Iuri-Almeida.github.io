@@ -65,7 +65,19 @@
   }
 
   .menu {
-    margin-right: 1.5rem;
+    margin-right: 1.2rem;
+  }
+
+  .menu a {
+    margin-right: 1.1rem;
+  }
+
+  .span {
+    font-size: 1.2rem;
+  }
+
+  .switch {
+    margin: 0 1rem;
   }
 }
 
