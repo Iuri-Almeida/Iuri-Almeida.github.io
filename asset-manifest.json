@@ -1,29 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ef97458.chunk.css",
-    "main.js": "/static/js/main.af203276.chunk.js",
-    "main.js.map": "/static/js/main.af203276.chunk.js.map",
+    "main.css": "/static/css/main.44169f43.chunk.css",
+    "main.js": "/static/js/main.a780bb55.chunk.js",
+    "main.js.map": "/static/js/main.a780bb55.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58fe7d23.js",
     "runtime-main.js.map": "/static/js/runtime-main.58fe7d23.js.map",
-    "static/js/2.78d3186e.chunk.js": "/static/js/2.78d3186e.chunk.js",
-    "static/js/2.78d3186e.chunk.js.map": "/static/js/2.78d3186e.chunk.js.map",
+    "static/js/2.af4642e4.chunk.js": "/static/js/2.af4642e4.chunk.js",
+    "static/js/2.af4642e4.chunk.js.map": "/static/js/2.af4642e4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8ef97458.chunk.css.map": "/static/css/main.8ef97458.chunk.css.map",
-    "static/js/2.78d3186e.chunk.js.LICENSE.txt": "/static/js/2.78d3186e.chunk.js.LICENSE.txt",
-    "static/media/challenges.3b267b88.png": "/static/media/challenges.3b267b88.png",
+    "static/css/main.44169f43.chunk.css.map": "/static/css/main.44169f43.chunk.css.map",
+    "static/js/2.af4642e4.chunk.js.LICENSE.txt": "/static/js/2.af4642e4.chunk.js.LICENSE.txt",
+    "static/media/challenges.e72b5cea.png": "/static/media/challenges.e72b5cea.png",
+    "static/media/code.cd3a94b7.png": "/static/media/code.cd3a94b7.png",
+    "static/media/css.99c55bd9.png": "/static/media/css.99c55bd9.png",
     "static/media/facebook.9f680718.png": "/static/media/facebook.9f680718.png",
+    "static/media/git.cfc36f25.png": "/static/media/git.cfc36f25.png",
     "static/media/github.f439f098.png": "/static/media/github.f439f098.png",
     "static/media/gmail.e5626796.png": "/static/media/gmail.e5626796.png",
+    "static/media/html.8af967a5.png": "/static/media/html.8af967a5.png",
     "static/media/instagram.5d5966a3.png": "/static/media/instagram.5d5966a3.png",
     "static/media/iuri.c06da653.jpg": "/static/media/iuri.c06da653.jpg",
+    "static/media/jiujitsu.5c8f55d8.png": "/static/media/jiujitsu.5c8f55d8.png",
+    "static/media/js.41e7e18b.png": "/static/media/js.41e7e18b.png",
     "static/media/linkedin.99b9a19e.png": "/static/media/linkedin.99b9a19e.png",
+    "static/media/linux.fb3d31d6.png": "/static/media/linux.fb3d31d6.png",
     "static/media/logo.fe37f188.png": "/static/media/logo.fe37f188.png",
-    "static/media/python.44f0f405.png": "/static/media/python.44f0f405.png"
+    "static/media/nodejs.a0857db9.png": "/static/media/nodejs.a0857db9.png",
+    "static/media/python.8dbd7f1f.png": "/static/media/python.8dbd7f1f.png",
+    "static/media/reactjs.58d07884.png": "/static/media/reactjs.58d07884.png",
+    "static/media/sql.1b0f6da3.png": "/static/media/sql.1b0f6da3.png",
+    "static/media/terminal.45a33f07.png": "/static/media/terminal.45a33f07.png",
+    "static/media/vscode.d88f2614.png": "/static/media/vscode.d88f2614.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58fe7d23.js",
-    "static/js/2.78d3186e.chunk.js",
-    "static/css/main.8ef97458.chunk.css",
-    "static/js/main.af203276.chunk.js"
+    "static/js/2.af4642e4.chunk.js",
+    "static/css/main.44169f43.chunk.css",
+    "static/js/main.a780bb55.chunk.js"
   ]
 }
