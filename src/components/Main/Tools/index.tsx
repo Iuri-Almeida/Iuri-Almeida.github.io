@@ -67,7 +67,7 @@ const Tools: React.FC = () => {
                 </Tool>
 
                 <Tool>
-                    <img src={linux} alt="Linux" title="Linux" />
+                    <img src={linux} alt="GNU/Linux" title="GNU/Linux" />
                 </Tool>
 
                 <Tool>
