@@ -30,6 +30,7 @@ const Header: React.FC<Props> = ({ toogleTheme }) => {
                     <a href="#home">Home</a>
                     <a href="#about">About me</a>
                     <a href="#tools">Tools</a>
+                    <a href="#projects">Projects</a>
 
                 </div>
 

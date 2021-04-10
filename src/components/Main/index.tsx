@@ -6,6 +6,7 @@ import animation from '../../styles/components/Animation.module.css'
 import Home from './Home'
 import About from './About'
 import Tools from './Tools'
+import Projects from './Projects'
 
 const Main: React.FC = () => {
 
@@ -37,6 +38,7 @@ const Main: React.FC = () => {
             <Home />
             <About />
             <Tools />
+            <Projects />
 
         </div>
     )

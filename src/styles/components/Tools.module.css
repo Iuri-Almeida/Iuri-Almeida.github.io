@@ -6,6 +6,8 @@
   justify-content: center;
 
   flex-direction: column;
+
+  padding-top: 12rem;
 }
 
 .toolsCommand {
@@ -60,7 +62,7 @@
   .toolsContainer {
     align-items: flex-start;
 
-    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 
   .tools {

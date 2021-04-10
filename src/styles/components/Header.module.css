@@ -28,6 +28,7 @@
 }
 
 .menu {
+  font-weight: 300;
   margin-right: 3rem;
 
   font-size: 1.4rem;
@@ -44,6 +45,7 @@
 }
 
 .span {
+  font-weight: 400;
   font-size: 1.4rem;
 
   text-align: center;
@@ -64,12 +66,8 @@
     padding: 0 2rem;
   }
 
-  .menu {
-    margin-right: 1.2rem;
-  }
-
   .menu a {
-    margin-right: 1.1rem;
+    display: none;
   }
 
   .span {
