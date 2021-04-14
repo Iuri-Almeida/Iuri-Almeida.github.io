@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
 
                     <div className={styles.projectFooter}>
 
-                        <a href="/donut-rotation">
+                        <a href="/donut-rotation" target="_blank" rel="noreferrer">
 
                             <button type="button">Demo</button>
 
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
 
                     <div className={styles.projectFooter}>
 
-                        <a href="/rotate-cube">
+                        <a href="/rotate-cube" target="_blank" rel="noreferrer">
 
                             <button type="button">Demo</button>
 
@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
 
                     <div className={styles.projectFooter}>
 
-                        <a href="/carousel">
+                        <a href="/carousel" target="_blank" rel="noreferrer">
 
                             <button type="button">Demo</button>
 
@@ -123,7 +123,7 @@ const Projects: React.FC = () => {
 
                     <div className={styles.projectFooter}>
 
-                        <a href="/smile-focus">
+                        <a href="/smile-focus" target="_blank" rel="noreferrer">
 
                             <button type="button">Demo</button>
 
@@ -153,7 +153,7 @@ const Projects: React.FC = () => {
 
                     <div className={styles.projectFooter}>
 
-                        <a href="/flip-card">
+                        <a href="/flip-card" target="_blank" rel="noreferrer">
 
                             <button type="button">Demo</button>
 
@@ -183,7 +183,7 @@ const Projects: React.FC = () => {
 
                     <div className={styles.projectFooter}>
 
-                        <a href="/chronometer">
+                        <a href="/chronometer" target="_blank" rel="noreferrer">
 
                             <button type="button">Demo</button>
 
